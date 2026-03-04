@@ -1,9 +1,8 @@
 print("Bienvenido al parqueadero RIWI")
 sw = True
+ocupancia = int(input("cuantos carros hay ya en el parqueadero? \n"))
 
 while sw:
-
-    ocupancia = int(input("cuantos carros hay ya en el parqueadero? \n"))
     proceso = input("¿quiere ingresar o sacar carros? (ingresar/sacar o True/False): \n").strip().lower()
 
     if proceso in ('true', 't', '1', 'yes', 'y', 'si', 's', 'ingresar', 'entrar'):
